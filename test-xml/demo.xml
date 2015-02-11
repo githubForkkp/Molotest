@@ -1,0 +1,16 @@
+<suite reruntimes="2" thread-count="10" parallel="tests" verbose="10"
+	name="demo" annotations="JDK" time-out="1800000">
+
+	<test name="TestNg" junit="false" annotations="JDK">
+		<classes>
+			<class name="com.netease.demo.TestNg" />
+		</classes>
+	</test>
+
+	<test name="TestNgClone" junit="false" annotations="JDK">
+		<classes>
+			<class name="com.netease.demo.TestNgClone" />
+		</classes>
+	</test>
+
+</suite>

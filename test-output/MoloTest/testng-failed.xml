@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [MoloTest]">
+  <listeners>
+    <listener class-name="com.molo.Utils.TestListener.DotTestListener"/>
+    <listener class-name="com.molo.Utils.TestListener.MyTestListener"/>
+  </listeners>
+  <test name="com.molo.test(failed)">
+    <classes>
+      <class name="com.molo.wmarket.vmarketTest">
+        <methods>
+          <include name="GetAppListGame_isOk"/>
+        </methods>
+      </class> <!-- com.molo.wmarket.vmarketTest -->
+    </classes>
+  </test> <!-- com.molo.test(failed) -->
+</suite> <!-- Failed suite [MoloTest] -->

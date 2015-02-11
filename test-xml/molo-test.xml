@@ -1,0 +1,25 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="MoloTest">
+	<test name="com.molo.test" annotations="JDK">
+		<!--<packages>
+			<package name="com.molo.test.m4" />
+			<package name="com.molo.test.m5" />
+			<package name="com.molo.UItest.sj" />
+			<package name="com.molo.test.webservices" />
+			<package name="com.molo.test.search" />
+			<package name="com.molo.wmarket" />
+		</packages>-->
+		 <classes>
+			<class name="com.molo.wmarket.vmarketTest">
+				<methods> 
+					<include name="GetAppListApp_isOk"/> <include name="GetAppListGame_isOk"/>
+					</methods> 
+			</class>
+		</classes>
+	</test>
+	<listeners>
+			<listener class-name="com.molo.Utils.TestListener.DotTestListener"/>
+			<listener class-name="com.molo.Utils.TestListener.MyTestListener"/>
+	</listeners>
+
+</suite>

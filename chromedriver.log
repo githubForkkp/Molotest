@@ -1,0 +1,12 @@
+[0.000][INFO]:      ChromeDriver 23.0.1240.0 D:\Test&Dve\Dagger-master\res\chromedriver_for_win.exe
+[0.790][FINE]:      Initializing session with capabilities {
+   "browserName": "chrome",
+   "chrome.switches": [ "--start-maximized" ],
+   "platform": "ANY",
+   "version": ""
+}
+
+[0.807][INFO]:      Launching chrome: "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" --enable-logging --log-level=1 --disable-hang-monitor --disable-prompt-on-repost --dom-automation --full-memory-crash-report --no-default-browser-check --no-first-run --disable-background-networking --disable-sync --disable-translate --disable-web-resources --safebrowsing-disable-auto-update --safebrowsing-disable-download-protection --disable-client-side-phishing-detection --disable-component-update --disable-default-apps --ignore-certificate-errors --start-maximized about:blank
+[6.808][INFO]:      Connected to Chrome successfully. Version: 33.0.1750.154
+[16.905][WARNING]:  Chrome still running, terminating...
+[16.905][INFO]:     Chrome shutdown
